@@ -3,7 +3,7 @@ An intelligent resume screening tool that uses Natural Language Processing and M
 
 
 
-🎯 Features
+ Features
 
 Smart Text Extraction: Supports PDF, DOCX, and TXT resume formats
 NLP-Powered Analysis: Uses spaCy for intelligent text processing and information extraction
@@ -15,14 +15,14 @@ Customizable CLI: Flexible command-line interface with adjustable filtering thre
 Batch Processing: Efficiently processes 500+ resumes in a single run
 Detailed Reporting: Generates comprehensive scoring reports with recommendations
 
-📊 Performance Metrics
+ Performance Metrics
 
 Accuracy: 88% in resume-to-job matching
 Time Reduction: 60% decrease in manual screening time
 Processing Speed: 500+ resumes per batch
 Supported Formats: PDF, DOCX, DOC, TXT
 
-🛠️ Installation
+ Installation
 Prerequisites
 
 Python 3.7 or higher
@@ -50,11 +50,6 @@ python -m spacy download en_core_web_sm
 Usage
 Basic Usage
 bashpython resume_screening.py --resumes ./resumes --job-desc job_description
-
-
-========================================================================================
-
-
 
  How It Works
 1. Text Extraction
@@ -88,7 +83,7 @@ Not Recommended (<40%): Poor match
 
 Sample Output
 RESUME SCREENING RESULTS
-================================================================================
+
 1. alice_wong.txt
    Score: 0.89
    Skill Match: 85.7%
@@ -96,9 +91,6 @@ RESUME SCREENING RESULTS
    Education: PhD
    Skills Found: python, machine learning, scikit-learn, tensorflow, aws
    Recommendation: Highly Recommended
-
-
-===============================================================================
 
 2. john_doe.txt
    Score: 0.76
@@ -108,16 +100,8 @@ RESUME SCREENING RESULTS
    Skills Found: python, django, postgresql, git
    Recommendation: Recommended
 
-================================================================================
-
-
-
 Total resumes processed: 5
 Average score: 0.68
 Recommended candidates: 2
 
-
-⭐ If you find this project useful, please give it a star! ⭐
-
-Built with ❤️ and Python
 
